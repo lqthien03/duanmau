@@ -1,0 +1,53 @@
+
+    /* login */
+
+    .heading{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size:30px;
+    }
+    .login-form{ 
+        color: black;
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 40px;
+    
+    }
+    .login-form form{
+        display: flex;
+        /* dàn các thẻ sang hàng dọc */
+        flex-direction: column;
+    }
+    .login-form form input{
+        padding: 15px 15px ;
+        border: 1px solid gray;
+        border-radius: 5px;
+        outline: none;
+        margin: 15px 0;
+    }
+    .login-form form input:focus{
+        border: 1px solid #088178;
+    }
+    
+    .login-form form #bt{
+        padding: 15px ;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .login-form form #bt:hover{
+        background: #088178;
+        color: blue;
+        
+    }
+    
+    .link-login{
+        display: block;
+        text-decoration: none;
+        color: black;
+        margin: 30px 0;
+    }
+    .link-login:hover{
+        color: brown;
+    }
